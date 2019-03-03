@@ -57,7 +57,9 @@ var iconsReplace = function(md, options, Token) {
     icon = matches[1];
     size = matches[2] || '24';
 
-    index = icons.findIndex(i => i.tag == icon);
+    index = icons.findIndex(function isIcon(i) {
+      return i.tag == icon;
+    });
     if (index === -1) {
       return original;
     }

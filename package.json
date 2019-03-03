@@ -1,7 +1,7 @@
 {
   "name": "markdown-it-status-icons",
-  "version": "0.1.1",
-  "description": "Adds simple status icons to markdown it.",
+  "version": "0.1.2",
+  "description": "Plugin for markdown-it markdown parser, adding simple status icons support.",
   "main": "index.js",
   "scripts": {},
   "keywords": [
