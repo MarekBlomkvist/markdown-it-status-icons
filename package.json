@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-status-icons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Adds simple status icons to markdown it.",
   "main": "index.js",
   "scripts": {},
