@@ -1,0 +1,15 @@
+{
+  "name": "markdown-it-status-icons",
+  "version": "0.1.0",
+  "description": "Adds simple status icons to markdown it.",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "markdown-it-plugin",
+    "markdown-it",
+    "markdown",
+    "status-icons"
+  ],
+  "author": "Marek Blomkvist",
+  "license": "MIT"
+}
