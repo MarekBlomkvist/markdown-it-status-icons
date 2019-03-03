@@ -1,7 +1,7 @@
-const iconsReplace = function(md, options, Token) {
-  const arrayReplaceAt = md.utils.arrayReplaceAt;
+var iconsReplace = function(md, options, Token) {
+  var arrayReplaceAt = md.utils.arrayReplaceAt;
 
-  const icons = [
+  var icons = [
     {
       tag: 'yes',
       fill: '#33FF66',
@@ -20,9 +20,9 @@ const iconsReplace = function(md, options, Token) {
         'M16,0C7.2,0,0,7.2,0,16s7.2,16,16,16s16-7.2,16-16S24.8,0,16,0z M22.7,21.3l-1.4,1.4L16,17.4l-5.3,5.3l-1.4-1.4l5.3-5.3l-5.3-5.3l1.4-1.4l5.3,5.3l5.3-5.3l1.4,1.4L17.4,16L22.7,21.3z'
     }
   ];
-  const pattern = /\/icon:([a-z]+)\:*([0-9]+)*\//i;
+  var pattern = /\/icon:([a-z]+)\:*([0-9]+)*\//i;
 
-  const createTokens = function(index, size, Token) {
+  var createTokens = function(index, size, Token) {
     var nodes, opening, path, closing;
     nodes = [];
 
@@ -46,7 +46,7 @@ const iconsReplace = function(md, options, Token) {
 
     return nodes;
   };
-  const splitTextToken = function(original, Token) {
+  var splitTextToken = function(original, Token) {
     var matches, text, icon, size;
     text = original.content;
     matches = text.match(pattern);
