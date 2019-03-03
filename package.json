@@ -1,6 +1,6 @@
 {
   "name": "markdown-it-status-icons",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Plugin for markdown-it markdown parser, adding simple status icons support.",
   "main": "index.js",
   "scripts": {},
@@ -10,6 +10,13 @@
     "markdown",
     "status-icons"
   ],
-  "author": "Marek Blomkvist",
+  "author": {
+    "name": "Marek Blomkvist",
+    "email": "marekblomkvist@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MarekBlomkvist/markdown-it-status-icons.git"
+  },
   "license": "MIT"
 }

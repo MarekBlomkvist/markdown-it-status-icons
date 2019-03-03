@@ -42,6 +42,8 @@ If size is not set, the default value is 24. All icons are svg graphics which al
 | maybe | ![maybe-icon](icons/maybe.svg) |
 | no    | ![no-icon](icons/no.svg)       |
 
+_Only visible on GitHub_
+
 ## License
 
 [MIT](https://github.com/Marel-it/markdown-it-emoji/blob/master/LICENSE)
